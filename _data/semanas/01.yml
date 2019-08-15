@@ -1,0 +1,14 @@
+descripcion: |
+  En la primer parte de la clase, vamos a trabajar con un ejercicio de diagnóstico, cuyo enunciado podés encontrar más abajo.
+  Después vamos a empezar con la materia, con una primera visión de qué es un objeto, y ya vamos al primer ejemplo con código y todo.
+
+  También vamos a hablar un poco sobre el entorno Wollok, que vamos a usar durante todo el cuatri (o casi).
+
+
+ejercicios:
+  - name: Viajes en auto (diagnóstico)
+    repo: obj1-unahur/viajesEnAuto-diagnostico
+    classroom: https://classroom.github.com/a/_Dhc3SuS
+  - name: Multipepita
+    repo: obj1-unahur/multipepita
+    classroom: https://classroom.github.com/a/0U__FvwF
