@@ -1,3 +1,17 @@
+---
+guias:
+  - name: objetos
+  - name: objetos
+  - name: objetos
+  - name: colecciones
+  - name: clases
+  - name: herencia
+  - name: herencia
+  - name: adicionales-1er-parcial
+  - name: integradores
+  - name: extras
+---
+
 # Apuntes
 
 ## Git
@@ -14,3 +28,11 @@ En principio recomendamos los apuntes [publicados en el sitio de Wollok](http://
 
 * [Machete de sintaxis Wollok](https://docs.google.com/document/d/11BEzE5o-0wRyvidwV-NV6JTQbf0s00ZLYNkjn_G8fio/edit?usp=sharing). Resumen de la sintaxis de Wollok.
 * [Guía sobre colecciones y closures](https://objetos1wollokunq.gitlab.io/material/guia-colecciones-basicas.pdf). _El_ recurso para tener a mano cuando empecemos a trabajar con colecciones. Sobre todo las últimas páginas que sirven de machete para recordar qué operaciones existen.
+
+## Guías de ejercicios adicionales
+
+Ejercicios en formato "tradicional", que (aún) no tienen un proyecto en GitHub listo para clonar y empezar a trabajar.
+
+{% for guia in page.guias %}
+* [Guía {{forloop.index}} - {{guia.name}}](../guias/guia{{forloop.index}}-{{guia.name}}.pdf)
+{% endfor %}
