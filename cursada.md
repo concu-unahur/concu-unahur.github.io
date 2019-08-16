@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Semana a semana
+# Cursada
 
 {% assign semanas = site.data.semanas | sort %}
 {% for semana_hash in semanas reversed %}
