@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Cursada
+# Cursada (2019s1)
 
-{% assign cursada = site.data.cursada_actual %}
+{% assign cursada = site.data.cursada_2019s1 %}
 {% include cursada.md cursada=site.data.cursada_actual %}
