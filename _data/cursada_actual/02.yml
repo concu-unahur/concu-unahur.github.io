@@ -1,0 +1,15 @@
+descripcion: |
+  Esta semana viene cargada, de contenido de objetos y también de herramientas.
+
+  De objetos vamos a aprender: 
+  - a trabajar con varios objetos que interactúan entre ellos.
+  - a pasar un objeto construido por nosotros como argumento.
+  - a trabajar con los números como objetos.
+  - la noción de **polimorfismo**, que es clave en la programación con objetos.
+  - la palabra reservada "self", que sirve cuando queremos interactuar, en un método, con el mismo objeto al que le llegó el mensaje.
+
+
+ejercicios:
+  - name: Contador
+    repo: obj1-unahur/contador
+    classroom: https://classroom.github.com/a/XizY3joB
