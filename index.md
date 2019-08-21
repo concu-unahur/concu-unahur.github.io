@@ -11,8 +11,8 @@ Si es la primera vez que entrás acá, te recomendamos que leas el [contrato ped
 ## Días y horarios de cursada
 
 **Turno tarde:**
-* Martes y Jueves de 14:00 a 18:00.
-* Los profes somos `<CARGANDO...>` y Carlos Lombardi.
+* Martes de 12:00 a 16:00, Jueves de 14:00 a 18:00.
+* Los profes somos Sebastián Pedersen y Carlos Lombardi.
 
 **Turno noche:**
 * Martes y Jueves de 18:00 a 22:00.
