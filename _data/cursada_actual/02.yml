@@ -7,9 +7,21 @@ descripcion: |
   - a trabajar con los números como objetos.
   - la noción de **polimorfismo**, que es clave en la programación con objetos.
   - la palabra reservada "self", que sirve cuando queremos interactuar, en un método, con el mismo objeto al que le llegó el mensaje.
+  - a pensar de qué se tiene que acordar un objeto, o sea, cómo configurar su **estado**.
+
+  Respecto de las herramientas:
+  - vamos a ejercitar el uso de git, para poner lo que hacemos en la nube
+  - comenzaremos a trabajar con **tests**
+
 
 
 ejercicios:
   - name: Contador
     repo: obj1-unahur/contador
     classroom: https://classroom.github.com/a/XizY3joB
+  - name: Empanadas Giménez
+    repo: obj1-unahur/empanadasGimenez
+    classroom: https://classroom.github.com/a/AjBpWABC
+  - name: Multipepita - avances en clase
+    repo: obj1-unahur-2019s2/multipepita-clombardi
+
