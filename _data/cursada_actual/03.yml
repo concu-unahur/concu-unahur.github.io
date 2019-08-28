@@ -1,0 +1,16 @@
+descripcion: |
+  Comenzamos una nueva semana, en la que vamos a trabajar con un ejercicio nuevo: gustos (o cosas que le gustan a distintas personas).
+  
+  Además de esto, vamos a tener una entrega **obligatoria** e **individual** del ejercicio **Spa**. Para cumplir con la misma, deberán subir su código al repositorio (push) antes de la fecha límite. 
+
+ejercicios:
+  - name: Gustos
+    repo: wollok/objetosGustos
+    classroom: https://classroom.github.com/a/RFEhiuZP
+
+entrega:
+  fecha: 2019-09-05T23:59
+  ejercicios:
+    - name: Spa
+      repo: wollok/spa
+      classroom: https://classroom.github.com/a/O3MRrmKW
