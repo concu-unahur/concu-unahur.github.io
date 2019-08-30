@@ -9,6 +9,8 @@ ejercicios:
   - name: Gustos
     repo: wollok/objetosGustos
     classroom: https://classroom.github.com/a/RFEhiuZP
+  - name: Objetos y gustos - avances en clase de la tarde
+    repo: obj1-unahur-2019s2/gustos-clombardi
 
 entrega:
   fecha: 2019-09-05T23:59
