@@ -9,4 +9,13 @@ ejercicios:
   - name: Golosinas
     repo: obj1-unahur/golosinas
     classroom: https://classroom.github.com/a/w2Kd-AXO
+  - name: Registro de producción de una máquina - avances en clase de la tarde
+    repo: obj1-unahur-2019s2/produccion-maquina-clombardi
+
+entrega:
+  fecha: 2019-09-24T23:59
+  ejercicios:
+    - name: Camión de transporte
+      repo: wollok/spa
+      classroom: https://classroom.github.com/a/rmnNzGYE
 
