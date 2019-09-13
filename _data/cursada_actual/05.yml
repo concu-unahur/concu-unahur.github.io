@@ -11,7 +11,9 @@ ejercicios:
     classroom: https://classroom.github.com/a/w2Kd-AXO
   - name: Registro de producción de una máquina - avances en clase de la tarde
     repo: obj1-unahur-2019s2/produccion-maquina-clombardi
-
+  - name: Golosinas - avances en clase de la noche
+    repo: obj1-unahur-2019s2/golosinas-faloi
+    
 entrega:
   fecha: 2019-09-24T23:59
   ejercicios:
