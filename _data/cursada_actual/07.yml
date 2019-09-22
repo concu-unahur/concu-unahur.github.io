@@ -1,0 +1,9 @@
+descripcion: |
+  En esta semana vamos a integrar el trabajo con clases, con varios conceptos que vimos hasta ahora, en particular: polimorfismo, manejo de atributos, tests.
+
+  También vamos a empezar a trabajar con un dominio más exigente.
+
+ejercicios:
+  - name: Bicicletas
+    repo: obj1-unahur/bicis_2019s2
+    classroom: https://classroom.github.com/a/J6_sOrmg
