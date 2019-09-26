@@ -1,7 +1,7 @@
 descripcion: |
   En esta semana vamos a integrar el trabajo con clases, con varios conceptos que vimos hasta ahora, en particular: polimorfismo, manejo de atributos, tests.
 
-  También vamos a empezar a trabajar con un dominio más exigente.
+  También vamos a empezar a trabajar con un dominio más exigente. A la noche, comenzamos con algo de Wollok Game.
 
 ejercicios:
   - name: Bicicletas
@@ -10,3 +10,6 @@ ejercicios:
   - name: Flotas de rodados
     repo: obj1-unahur/flotasDeRodados-2019s2
     classroom: https://classroom.github.com/a/wxcF7SGl
+  - name: GranjaVilla
+    repo: wollok/granjavilla
+    classroom: https://classroom.github.com/a/P_2wGdLo
