@@ -1,0 +1,18 @@
+descripcion: |
+  En esta semana seguimos el trabajo con dominios más exigentes, donde vamos a tener que aplicar lo que aprendimos hasta ahora.
+
+  Arrancamos con Wollok Game en el curso de la tarde.
+
+  Los ejercicios Flotas de Rodados y Granjavilla están en las notas de la semana anterior.
+
+  Agregamos la tercera entrega, donde van a usar clases.
+
+
+entrega:
+  fecha: 2019-10-10T23:59
+  ejercicios:
+    - name: Infraestructura ferroviaria
+      repo: obj1-unahur/infraFerroviaria-2019s2
+      classroom: https://classroom.github.com/a/ZTJqo3DD
+
+
