@@ -7,6 +7,11 @@ descripcion: |
 
   Agregamos la tercera entrega, donde van a usar clases.
 
+ejercicios:
+  - name: Flotas de rodados - con la parte 1 resuelta
+    repo: obj1-unahur/flotasDeRodados-2019s2-parte1resuelta
+    classroom: https://classroom.github.com/a/DGrZP7vB
+
 
 entrega:
   fecha: 2019-10-10T23:59
