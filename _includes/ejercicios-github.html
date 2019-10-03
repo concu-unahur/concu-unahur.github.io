@@ -1,12 +1,12 @@
-<table>
-    <tbody>
-      {% for ej in ejercicios %}
-      <tr>
-          <td markdown="span">{{ej.name}}</td>
-          <td markdown="span">{% if ej.classroom %} [Clonar el ejercicio]({{ej.classroom}}) <i class="fas fa-book"></i>{% endif %}
-          </td>
-          <td markdown="span">[Ver enunciado](https://github.com/{{ej.repo}}) <i class="fab fa-github"></i></td>
-      </tr>
-      {% endfor %}
-    </tbody>
-</table>
+<div class="grid">
+  {% for ej in ejercicios %}
+  <article>
+    <div class="container">
+      <h3><b>{{ej.name}}</b></h3>
+      <p markdown="span">{% if ej.classroom %}<i class="fas fa-book"></i> [Clonar el ejercicio]({{ej.classroom}}){% endif %}
+      </p>
+      <p markdown="span"><i class="fab fa-github"></i> [Ver enunciado](https://github.com/{{ej.repo}})</p>
+    </div>
+  </article>
+  {% endfor %}
+</div>
