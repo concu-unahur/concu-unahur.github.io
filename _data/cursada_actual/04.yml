@@ -13,4 +13,7 @@ ejercicios:
   - name: Registro de producción de una máquina
     repo: obj1-unahur/produccion-maquina
     classroom: https://classroom.github.com/a/nIMzRCf9
+    apuntes:
+      - name: clase de la tarde
+        repo: obj1-unahur-2019s2/produccion-maquina-clombardi
 

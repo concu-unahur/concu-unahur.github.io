@@ -9,8 +9,9 @@ ejercicios:
   - name: Gustos
     repo: wollok/objetosGustos
     classroom: https://classroom.github.com/a/RFEhiuZP
-  - name: Objetos y gustos - avances en clase de la tarde
-    repo: obj1-unahur-2019s2/gustos-clombardi
+    apuntes:
+      - name: clase de la tarde
+        repo: obj1-unahur-2019s2/gustos-clombardi
   - name: Sueldo de Pepe (para quienes se aburran)
     repo: obj1-unahur/sueldo-pepe-objetos
     classroom: https://classroom.github.com/a/MeY-c9tx

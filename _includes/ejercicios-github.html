@@ -3,9 +3,24 @@
   <article>
     <div class="container">
       <h3><b>{{ej.name}}</b></h3>
-      <p markdown="span">{% if ej.classroom %}<i class="fas fa-book"></i> [Clonar el ejercicio]({{ej.classroom}}){% endif %}
+      {% if ej.classroom %}
+      <p markdown="span">
+        <i class="fas fa-book fa-fw"></i> [Clonar el ejercicio]({{ej.classroom}})
       </p>
-      <p markdown="span"><i class="fab fa-github"></i> [Ver enunciado](https://github.com/{{ej.repo}})</p>
+      {% endif %}
+      <p markdown="span">
+        <i class="fab fa-github fa-fw"></i> [Ver enunciado](https://github.com/{{ej.repo}})
+      </p>
+      {% if ej.apuntes %}
+      <p>
+        <i class="fas fa-chalkboard-teacher fa-fw"></i> Apuntes
+        <ul>
+          {% for ap in ej.apuntes %}
+          <li markdown="span">[{{ap.name}}]({{ap.repo}})</li>
+          {% endfor %}
+        </ul>
+      </p>
+      {% endif %}
     </div>
   </article>
   {% endfor %}
