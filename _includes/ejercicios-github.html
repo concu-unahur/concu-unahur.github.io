@@ -16,7 +16,7 @@
         <i class="fas fa-chalkboard-teacher fa-fw"></i> Apuntes
         <ul>
           {% for ap in ej.apuntes %}
-          <li markdown="span">[{{ap.name}}]({{ap.repo}})</li>
+          <li markdown="span">[{{ap.name}}](https://github.com/{{ap.repo}})</li>
           {% endfor %}
         </ul>
       </p>
