@@ -1,5 +1,11 @@
 # Videos
 
+## Cómo ver las correcciones en GitHub
+
+Gracias a Pablo Méndez, les acercamos un pequeño video-tutorial de cómo ver, comentar o protestar por las correcciones que les hacemos:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vjslhtsE5Ws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Wollok Game
 
 Les dejamos una demo (bien caserita) de lo que podrían llegar a hacer con Wollok Game. 
