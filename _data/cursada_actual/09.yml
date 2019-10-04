@@ -2,7 +2,7 @@ descripcion: |
   Esta semana mezcla ejercicios potentes y Wollok Game. Si llegamos, arrancamos con el úllltimo tema de la materia: herencia.
 
 ejercicios:
-  - name: Inscripción a la materia
+  - name: Inscripción a materias
     repo: obj1-unahur/inscripcionMaterias-2019s2
     classroom: https://classroom.github.com/a/ptdDoqqu
   - name: Servicios profesionales
