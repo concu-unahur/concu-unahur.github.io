@@ -8,6 +8,9 @@ ejercicios:
   - name: Golosinas con clases
     repo: obj1-unahur/golosinas
     classroom: https://classroom.github.com/a/s2IqtC0A
+    apuntes:
+      - name: Implementado hasta bombón duro (noche)
+        repo: obj1-unahur-2019s2/golosinas-clases-faloi
 
 
 
