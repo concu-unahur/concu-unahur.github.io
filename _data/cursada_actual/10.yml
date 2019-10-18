@@ -11,6 +11,14 @@ ejercicios:
     apuntes:
       - name: Implementado hasta bombón duro (noche)
         repo: obj1-unahur-2019s2/golosinas-clases-faloi
+      - name: Bombón duro y caramelo con corazón de chocolate (tarde)
+        repo: obj1-unahur-2019s2/golosinas-clombardi
+  - name: Inscripción a materias (repetido de semana 9)
+    repo: obj1-unahur/inscripcionMaterias-2019s2
+    classroom: https://classroom.github.com/a/ptdDoqqu
+    apuntes:
+      - name: Verificación de condiciones de aprobación, inscripción, curso y lista de espera.
+        repo: obj1-unahur-2019s2/inscripcion-materias-clombardi
 
 
 
