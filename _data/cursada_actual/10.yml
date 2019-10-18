@@ -17,7 +17,9 @@ ejercicios:
     repo: obj1-unahur/inscripcionMaterias-2019s2
     classroom: https://classroom.github.com/a/ptdDoqqu
     apuntes:
-      - name: Verificación de condiciones de aprobación, inscripción, curso y lista de espera.
+      - name: Clase del martes 15/10 - Verificación de condiciones de aprobación, inscripción, curso y lista de espera..
+        repo: obj1-unahur-2019s2/inscripcion-materias-sebasped
+      - name: Clase del jueves 17/10 - repaso.
         repo: obj1-unahur-2019s2/inscripcion-materias-clombardi
 
 
