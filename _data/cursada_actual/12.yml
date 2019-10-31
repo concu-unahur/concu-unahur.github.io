@@ -5,6 +5,9 @@ ejercicios:
   - name: Oktubre fest
     repo: obj1-unahur/oktubre-fest-2019_s2
     classroom: https://classroom.github.com/a/3J5ScIzJ
+    apuntes:
+      - name: Avances clase de la noche
+        repo: obj1-unahur-2019s2/oktubre-fest-faloi
   - name: Destinos
     repo: obj1-unahur/destinos_2019s2
     classroom: https://classroom.github.com/a/RZbdMyVM
