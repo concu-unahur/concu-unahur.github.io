@@ -8,6 +8,8 @@ ejercicios:
     apuntes:
       - name: Avances clase de la noche
         repo: obj1-unahur-2019s2/oktubre-fest-faloi
+      - name: Avances clase de la tarde
+        repo: obj1-unahur-2019s2/oktubre-fest-clombardi
   - name: Destinos
     repo: obj1-unahur/destinos_2019s2
     classroom: https://classroom.github.com/a/RZbdMyVM
