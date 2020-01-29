@@ -1,7 +1,0 @@
-descripcion: |
-  Semana de recupetorios y defensas del TP. Para quienes quieran experimentar con un entorno JavaScript en sus propias máquinas, les dejamos un repositorio que pueden usar de base para programar el ejercicio de flota de rodados (o cualquier otro que quieran, claro).
-
-ejercicios:
-  - name: Flota de rodados (JavaScript)
-    repo: obj1-unahur/flota-rodados-js
-    classroom: https://classroom.github.com/a/JsU3RhaZ
