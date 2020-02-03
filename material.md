@@ -10,7 +10,7 @@ En esta materia utilizamos [Git](https://git-scm.com/) como herramienta para el 
 
 ## Python 3
 
-Para la primera parte de la materia vamos a usar Python 3 (ojo, también está el 2). Si usás Linux ya lo tenés instalado (si querés chequearlo, abrite una consola y ejecutá `python`. Para salir es `exit()`). Si usás Windows, lo podés instalar desde acá:
+Para la primera parte de la materia vamos a usar Python 3 (ojo, también está el 2). Si usás Linux ya lo tenés instalado (si querés chequearlo, abrite una consola y ejecutá `python3`. Para salir es `exit()`). Si usás Windows, lo podés instalar desde acá:
 
 * [Python3-Windows-64bit](https://www.python.org/ftp/python/3.8.1/python-3.8.1-amd64.exe)
 * [Python3-Windows-32bit](https://www.python.org/ftp/python/3.8.1/python-3.8.1.exe)
