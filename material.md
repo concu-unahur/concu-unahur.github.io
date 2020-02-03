@@ -14,3 +14,11 @@ Para la primera parte de la materia vamos a usar Python 3 (ojo, también está e
 
 * [Python3-Windows-64bit](https://www.python.org/ftp/python/3.8.1/python-3.8.1-amd64.exe)
 * [Python3-Windows-32bit](https://www.python.org/ftp/python/3.8.1/python-3.8.1.exe)
+
+
+## Visual Studio Code
+
+Como entorno de desarrollo vamos a usar el Visual Studio Code. Si usás Linux te lo podés instalar desde el paquete correspondiente a tu distro (BLA BLA).
+Si usás Windows lo podés instalar desde acá:
+
+* [VS Code para Windows (64 y 32 bits)](https://code.visualstudio.com/#alt-downloads)
