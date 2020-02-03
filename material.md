@@ -15,7 +15,6 @@ Para la primera parte de la materia vamos a usar Python 3 (ojo, también está e
 * [Python3-Windows-64bit](https://www.python.org/ftp/python/3.8.1/python-3.8.1-amd64.exe)
 * [Python3-Windows-32bit](https://www.python.org/ftp/python/3.8.1/python-3.8.1.exe)
 
-
 ## Visual Studio Code
 
 Como entorno de desarrollo vamos a usar el Visual Studio Code.
@@ -27,3 +26,8 @@ Si usás Windows lo podés instalar desde acá:
 * [VS Code para Windows (64 y 32 bits)](https://code.visualstudio.com/#alt-downloads)
 
 Acá hay un [tutorial en inglés sobre como instalar y setear VS Code en Windows](https://code.visualstudio.com/docs/setup/windows)
+
+## Plugin de Python para Visual Studio Code
+
+Para usar Python en VS Code es muy práctico instalarle un plugin (ayuda a autocompletar código, chequear syntaxis, depurar, etc.). Vamos a usar el más popular. Para instalarlo abrí el VS Code, andá a `archivo -> preferencias -> extensiones` (el shortcut es `Ctlr+Shift+X`). Después buscá el plugin `ms-python.python` e instalalo.
+Acá hay un [tutorial en inglés sobre como instalar y usar el plugin de Python para VS Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
