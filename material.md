@@ -18,7 +18,12 @@ Para la primera parte de la materia vamos a usar Python 3 (ojo, también está e
 
 ## Visual Studio Code
 
-Como entorno de desarrollo vamos a usar el Visual Studio Code. Si usás Linux te lo podés instalar desde el paquete correspondiente a tu distro (BLA BLA).
+Como entorno de desarrollo vamos a usar el Visual Studio Code.
+
+Si usás Linux, para instalarlo va a depender un poco de la distro. Por ejemplo para Debian o Ubuntu, lo más fácil es bajarse el [paquete .deb 64 bits](https://go.microsoft.com/fwlink/?LinkID=760868)  y abrir una consola y ejecutar `sudo apt install ./<archivo>.deb`. Si es una versión de Debian o Ubuntu algo más vieja, vas a tener que abrir una consola y ejecutar `sudo dpkg -i <archivo>.deb` seguido de `sudo apt-get install -f`.
+
 Si usás Windows lo podés instalar desde acá:
 
 * [VS Code para Windows (64 y 32 bits)](https://code.visualstudio.com/#alt-downloads)
+
+Acá hay un [tutorial en inglés sobre como instalar y setear VS Code en Windows](https://code.visualstudio.com/docs/setup/windows)
