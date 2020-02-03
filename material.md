@@ -2,6 +2,8 @@
 
 ## Lecturas complementarias
 
+**:argentina: [Blog de Arquitecturas Concurrentes](https://medium.com/arquitecturas-concurrentes)**: publicaciones de una materia amiga de la UTN, con un enfoque similar al que vamos a adoptar acá. Algunas cosas, sobre todo las relacionadas al paradigma funcional, van a quedar probablemente fuera del alcance de nuestra materia.
+
 **:us: Message Systems in Programming:** siete posts que explican las disitintas formas de construir sistemas para intercambiar mensajes.
 * [Introducción](https://jessewarden.com/2014/10/message-systems-in-programming-callbacks-events-pub-sub-promises-and-streams.html)
 * [Callbacks](https://jessewarden.com/2014/12/message-systems-in-programming-part-2-of-7-callbacks.html)
