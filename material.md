@@ -31,6 +31,8 @@ Acá hay un [tutorial en inglés sobre como instalar y setear VS Code en Windows
 
 Para usar Python en VS Code es muy práctico instalarle un plugin (ayuda a autocompletar código, chequear syntaxis, depurar, etc.). Vamos a usar el más popular. Para instalarlo abrí el VS Code, andá a `archivo -> preferencias -> extensiones` (el shortcut es `Ctlr+Shift+X`). Después buscá el plugin `ms-python.python` e instalalo.
 
+Luego de instalar el plugin, en el VS Code podés elegir qué versión de Python usar. Eso está en el VS Code abajo a la izquierda. Apretando donde dice `Python XXX` asegurate de que quede Python 3.
+
 Acá hay un [tutorial en inglés sobre como instalar y usar el plugin de Python para VS Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
 
 Acá hay [otro tutorial sobre como instalar y usar Python en VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
