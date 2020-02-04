@@ -7,7 +7,7 @@ items:
   - nombre: Monitor
     descripcion: (completar)
   - nombre: Deadlock
-    descripcion: (completar)
+    descripcion: los procesos están esperando un evento que nunca ocurrirá.
   - nombre: Hilo o _thread_
     descripcion: (completar)
   - nombre: Sección crítica
