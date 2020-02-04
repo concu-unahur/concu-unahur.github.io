@@ -17,6 +17,4 @@ Si es la primera vez que entrás acá, te recomendamos que leas el [contrato ped
 
 Vamos a utilizar esta página para subir material, fechas importantes y todo lo relacionado a la cursada. Tal vez sea una buena idea agregarla a los favoritos de tu navegador. :link::globe_with_meridians:
 
-Para avisos de último momento, novedades y consultas vamos a utilizar [Discord](#). Es importante que lo revises regularmente para no perderte nada.
-
-TODO: agregar link de Discord
+Para avisos de último momento, novedades y consultas vamos a utilizar [Discord](https://discord.gg/n4g5wH5). Es importante que lo revises regularmente para no perderte nada.
