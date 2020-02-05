@@ -1,7 +1,13 @@
 descripcion: |
-  Recuperamos conceptos previos sobre programación concurrente: salieron palabras como hilos, procesos, recursos y algunas otras.
+  Recuperamos conceptos previos sobre programación concurrente: salieron palabras como hilos, procesos, recursos y algunas otras. En resumen, nos quedó esto en el pizarrón:
 
-  Vimos las condiciones de la cursada y empezamos a jugar un poco con Python, hilos `start()` y `join()`.
+  ![Saberes previos](/assets/cursada/concurrencia-saberes-previos.jpg)
+
+  Vimos las condiciones de la cursada y empezamos a jugar un poco con Python:
+  * creamos hilos con la biblioteca `threading` y vimos que era necesario ejecutar `start()` para que comiencen;
+  * nos dimos cuenta de que el thread principal (o _main thread_) no espera a los hilos automáticamente;
+  * ensayamos una sincronización precaria usando `time.sleep` y calculando cuánto tardaba cada hilo en ejecutar;
+  * por último, aprendimos que podemos "quedarnos esperando" a que un thread termine, enviándole el mensaje `join()`.
 
 ejercicios:
   - name: Primeros pasos en Python
