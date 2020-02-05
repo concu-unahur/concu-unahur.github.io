@@ -1,17 +1,8 @@
 descripcion: |
-  En la primer parte de la clase, vamos a trabajar con un ejercicio de diagnóstico, cuyo enunciado podés encontrar más abajo.
-  Después vamos a empezar con la materia, con una primera visión de qué es un objeto, y ya vamos al primer ejemplo con código y todo.
+  Recuperamos conceptos previos sobre programación concurrente: salieron palabras como hilos, procesos, recursos y algunas otras.
 
-  También vamos a hablar un poco sobre el entorno Wollok, que vamos a usar durante todo el cuatri (o casi).
-
+  Vimos las condiciones de la cursada y empezamos a jugar un poco con Python, hilos `start()` y `join()`.
 
 ejercicios:
-  - name: Viajes en auto (diagnóstico)
-    repo: obj1-unahur/viajesEnAuto-diagnostico
-    classroom: https://classroom.github.com/a/_Dhc3SuS
-  - name: Multipepita
-    repo: obj1-unahur/multipepita
-    classroom: https://classroom.github.com/a/0U__FvwF
-    apuntes:
-      - name: clase de la tarde
-        repo: obj1-unahur-2019s2/multipepita-clombardi
+  - name: Primeros pasos en Python
+    repo: concu-unahur/python-primeros-pasos
