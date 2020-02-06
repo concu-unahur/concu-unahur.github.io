@@ -12,3 +12,4 @@ descripcion: |
 ejercicios:
   - name: Primeros pasos en Python
     repo: concu-unahur/python-primeros-pasos
+    classroom: https://classroom.github.com/a/33HVG5V8    # URL de GitHub Classroom
