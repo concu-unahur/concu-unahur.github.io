@@ -14,3 +14,5 @@
 * [Conclusiones](https://jessewarden.com/2014/12/message-systems-in-programming-part-7-of-7-conclusions.html)
 
 **:us: [The JavaScript Event Loop: Explained](https://blog.carbonfive.com/2013/10/27/the-javascript-event-loop-explained/)**: si querés saber cómo está implementado el modelo de concurrencia de NodeJS _a bajo nivel_, este es tu post.
+
+**:us: [Threads in Node 10.5.0: a practical intro](https://medium.com/dailyjs/threads-in-node-10-5-0-a-practical-intro-3b85a0a3c953)**: pequeño tutorial de cómo usar threads en NodeJS (aún en fase experimental).
