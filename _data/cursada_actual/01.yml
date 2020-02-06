@@ -10,6 +10,6 @@ descripcion: |
   * por último, aprendimos que podemos "quedarnos esperando" a que un thread termine, enviándole el mensaje `join()`.
 
 ejercicios:
-  - name: Primeros pasos en Python
+  - name: Primeros pasos en Python (recargado)
     repo: concu-unahur/python-primeros-pasos
     classroom: https://classroom.github.com/a/33HVG5V8
