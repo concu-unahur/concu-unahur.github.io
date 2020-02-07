@@ -35,3 +35,5 @@ ejercicios:
     apuntes:
       - name: Python segundos pasos, etapas 1 y 2, y 3 mita.
         repo: concu-unahur/python-primeros-pasos-sebasped
+  - name: Python importando
+    repo: concu-unahur/python-importando
