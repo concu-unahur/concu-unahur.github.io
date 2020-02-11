@@ -9,31 +9,7 @@ descripcion: |
   * ensayamos una sincronización precaria usando `time.sleep` y calculando cuánto tardaba cada hilo en ejecutar;
   * por último, aprendimos que podemos "quedarnos esperando" a que un thread termine, enviándole el mensaje `join()`.
 
-  En la siguiente clase primero repasamos algunas cosas:
-  * Cómo importar bibliotecas, y cómo importar clases o funciones que definimos en otro archivo.
-  * Cómo crear y lanzar threads tanto desde una función como desde una clase.
-
-  Después vimos como crear/lanzar/esperar muchos threads:
-  * Con un `for` creamos y lanzamos muchos threads.
-  * Después guardándonos todos los threads lanzados en una lista, la usamos para esperarlos a todos (mediante otro `for`)
-  * Vimos que guardar los threads en una lista permite, por ejemplo, luego esperarlos a todos. Sino los creamos y lanzamos, pero no los podemos controlar.
-  * También vimos que no es lo mismo lanzar y esperar, lanzar y esperar, etc., que lanzar todos y luego esperarlos a todos. Los tiempos de ejecución son muy distintos (¡y la ejecución en sí también!).
-  * Nos valimos de la _traza_ (línea de tiempo de ejecución) para entender qué estaba pasando en cada caso.
-
-  Por último definimos dos funciones que operaban sobre la misma variable, pero cuyas operaciones *no* eran conmutativas (es decir *importa* el orden en que se aplican):
-  * Nuevamente surgió el tema de la indeterminación al lanzar sendos threads de cada función.
-  * Vimos cómo arreglar la indeterminación desde el _main thread_ mediante `join()`.
-  * Pero vimos que esta solución no está tan buena porque *paraliza* al _main thread_.
-  * Luego vimos otra solución usando `locks` que hizo que los threads se esperen (o sincronicen) entre sí, independientemente de lo que siga haciendo el _main thread_ (es decir, no necesitamos paralizarlo).
-  * Nuevamente nos valimos de la _traza_ para entender lo que estaba pasando.
-
-
 ejercicios:
-  - name: Primeros pasos en Python (recargado)
+  - name: Primeros pasos en Python
     repo: concu-unahur/python-primeros-pasos
     classroom: https://classroom.github.com/a/33HVG5V8
-    apuntes:
-      - name: Python segundos pasos, etapas 1 y 2, y 3 mita.
-        repo: concu-unahur/python-primeros-pasos-sebasped
-  - name: Python importando
-    repo: concu-unahur/python-importando

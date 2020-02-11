@@ -1,56 +1,56 @@
-{% assign semanas = cursada | sort %}
-{% for semana_hash in semanas reversed %}
-{% assign numero_semana = semana_hash[0] | plus:0 %}
-{% assign semana = semana_hash[1] %}
+{% assign clases = cursada | sort %}
+{% for clase_hash in clases reversed %}
+{% assign numero_clase = clase_hash[0] | plus:0 %}
+{% assign clase = clase_hash[1] %}
 
-## [Semana {{numero_semana}}](#semana-{{numero_semana}}){: .titulo-semana}
-{{semana.descripcion}}
+## [Clase {{numero_clase}}](#clase-{{numero_clase}}){: .titulo-clase}
+{{clase.descripcion}}
 
-{% if semana.entrega %}
+{% if clase.entrega %}
 
 ### Para entregar
-{% assign fecha = semana.entrega.fecha %}
-La fecha límite para la entrega de esta semana es el <strong>{% include fecha-formato-humano.md fecha=fecha %}</strong>.
+{% assign fecha = clase.entrega.fecha %}
+La fecha límite para la entrega de esta clase es el <strong>{% include fecha-formato-humano.md fecha=fecha %}</strong>.
 
-{% assign ejercicios = semana.entrega.ejercicios %}
+{% assign ejercicios = clase.entrega.ejercicios %}
 {% if ejercicios %}
 {% include ejercicios-github.html ejercicios=ejercicios %}
 {% endif %}
 
-{% assign guias = semana.entrega.mumuki %}
+{% assign guias = clase.entrega.mumuki %}
 {% if guias %}
 **Mumuki**
 {% include ejercicios-mumuki.md guias=guias %}
 {% endif %}
 
-{{semana.entrega.descripcion}}
+{{clase.entrega.descripcion}}
 
 {% endif %}
 
-{% if semana.ejercicios %}
+{% if clase.ejercicios %}
 
 ### Ejercicios para trabajar en clase
-{% assign ejercicios = semana.ejercicios %}
+{% assign ejercicios = clase.ejercicios %}
 {% include ejercicios-github.html ejercicios=ejercicios %}
 
-{% if semana.textoEjercicios %}
-{{semana.textoEjercicios}}
+{% if clase.textoEjercicios %}
+{{clase.textoEjercicios}}
 {% endif %}
 
 {% endif %}
 
-{% if semana.mumuki %}
+{% if clase.mumuki %}
 
 ### Mumuki
 
 Te recomendamos resolver las guías:
-{% assign guias = semana.mumuki %}
+{% assign guias = clase.mumuki %}
 {% include ejercicios-mumuki.md guias=guias %}
 
 {% endif %}
 
 {% if forloop.last == false %}
-<hr class="titulo-semana">
+<hr class="titulo-clase">
 {% endif %}
 
 {% endfor %}

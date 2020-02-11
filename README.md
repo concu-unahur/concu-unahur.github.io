@@ -4,11 +4,11 @@ Este sitio está construido utilizando [Jekyll](https://jekyllrb.com/), un peque
 
 Se explican debajo algunas particularidades para poder agregar información al sitio.
 
-### Cómo agregar semanas en la cursada
+### Cómo agregar clases en la cursada
 
-La descripción de las semanas que aparecen en la sección "Cursada" se genera a partir de los archivos que están en la carpeta `_data/semanas`, aprovechando la funcionalidad de [data files](https://jekyllrb.com/docs/datafiles/) que ofrece Jekyll.
+La descripción de las clases que aparecen en la sección "Cursada" se genera a partir de los archivos que están en la carpeta `_data/clases`, aprovechando la funcionalidad de [data files](https://jekyllrb.com/docs/datafiles/) que ofrece Jekyll.
 
-Para crear una semana nueva hay que agregar un archivo con extensión `yml`, con un formato particular y nombrado según la semana que representa (ej: `1.yml` para la primera semana, `2.yml` para la segunda, etc.).
+Para crear una clase nueva hay que agregar un archivo con extensión `yml`, con un formato particular y nombrado según la clase que representa (ej: `1.yml` para la primera clase, `2.yml` para la segunda, etc.).
 
 La recomendación es mirar alguno que ya exista, pero va una explicación de qué contiene:
 
