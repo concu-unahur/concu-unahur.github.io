@@ -1,5 +1,11 @@
 # Material
 
+## Python
+
+**:us: [Threading](https://docs.python.org/2/library/threading.html):** documentación de la clase `Threading`, incluyendo los threads y los distintos tipos de locks.
+
+**:us: [Global Interpreter Lock](https://wiki.python.org/moin/GlobalInterpreterLock):** explicación de por qué los threads en Python se ejecutan casi secuencialmente (uno después que el otro). 
+
 ## Lecturas complementarias
 
 **:argentina: [Blog de Arquitecturas Concurrentes](https://medium.com/arquitecturas-concurrentes)**: publicaciones de una materia amiga de la UTN, con un enfoque similar al que vamos a adoptar acá. Algunas cosas, sobre todo las relacionadas al paradigma funcional, van a quedar probablemente fuera del alcance de nuestra materia.
