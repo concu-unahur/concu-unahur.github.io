@@ -1,0 +1,8 @@
+descripcion: |
+  Comenzamos con los semáforos.
+
+
+ejercicios:
+  - name: Semáforos
+    repo: concu-unahur/python-semaforos
+    classroom: https://classroom.github.com/a/yQ1cQ06X
