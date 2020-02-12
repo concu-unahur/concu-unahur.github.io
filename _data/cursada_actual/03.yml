@@ -1,8 +1,35 @@
 descripcion: |
-  Comenzamos con los semáforos.
+  Trabajamos con la primitiva de sincronización más antigua, creada durante la década de 1960 por [Edsger_Dijkstra](https://es.wikipedia.org/wiki/Edsger_Dijkstra): los **semáforos**. :vertical_traffic_light:
 
+  Esta primitiva, a diferencia del **mutex** (o **lock**) que veníamos usando, permite especificar su valor inicial. Internamente lleva un contador que se decrementa con cada `acquire()` y se incrementa con cada `release()`, bloqueando al thread cuando el contador llega a cero. 
+  
+  Por ejemplo:
+
+  ```python
+  import threading
+
+  # Inicialmente el contador vale 2.
+  sem = threading.Semaphore(2)
+
+  # El contador pasa a valer 1. No se bloquea el thread.
+  sem.acquire() 
+
+  # El contador pasa a valer 0. No se bloquea el thread.
+  sem.acquire()
+
+  # Se bloquea el thread. 
+  # Se liberará cuando algún otro thread ejecute release() sobre este mismo semáforo.
+  sem.acquire() 
+  ```
+
+  Vimos que podemos pensar al **lock** como un caso particular del semáforo, donde su valor inicial es 1 (también se lo llama _semáforo binario_).
+
+  Reescribimos el código del ejercicio de las operaciones no conmutativas usando semáforos y luego seguimos ejercitando con algunas simulaciones.
 
 ejercicios:
   - name: Semáforos
     repo: concu-unahur/python-semaforos
     classroom: https://classroom.github.com/a/yQ1cQ06X
+    apuntes:
+      - name: Impresoras resuelto
+        repo: concu-unahur/python-semaforos-faloi
