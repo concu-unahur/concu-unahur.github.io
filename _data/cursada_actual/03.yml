@@ -33,3 +33,6 @@ ejercicios:
     apuntes:
       - name: Impresoras resuelto
         repo: concu-unahur/python-semaforos-faloi
+      - name: Comensales
+        repo: concu-unahur/python-semaforos-sebasped
+

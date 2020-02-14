@@ -4,3 +4,7 @@ ejercicios:
   - name: Más Semáforos
     repo: concu-unahur/python-semaforos-vaquitas
     classroom: https://classroom.github.com/a/zVjgLMt8
+    apuntes:
+      - name: Vaquitas primera parte
+        repo: concu-unahur/python-semaforos-vaquitas-sebasped
+
