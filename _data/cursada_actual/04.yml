@@ -3,7 +3,7 @@ descripcion: |
   * El (potencial) indeterminismo en la ejecución de un programa con threads.
   * Terminado el main thread, pueden quedar otros threads ejecutándose (e incluso cambiando cosas mostradas por el main thread).
 
-  Nos topamos con otra idea importante a la hora de manejar threads: el orden en que se desbloquean es aleatorio. 
+  En `comensales.py` nos topamos con otra idea importante a la hora de manejar threads: el orden en que se desbloquean es aleatorio. 
   Se puede leer de [acá](https://docs.python.org/3.8/library/threading.html#semaphore-objects), del `acquire()`.
 
   Todo esto en el contexto de seguir practicando con semáforos como herramienta de sincronización entre threads.
