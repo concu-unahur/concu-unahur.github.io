@@ -1,7 +1,12 @@
 descripcion: |
+  Hablamos brevemente sobre dos problemas inherentes al manejo de concurrencia con threds: [**starvation**](https://es.wikipedia.org/wiki/Inanici%C3%B3n_(inform%C3%A1tica)) y [**deadlock**](https://es.wikipedia.org/wiki/Bloqueo_mutuo). 
   
+  Sobre el segundo, vimos cómo ocurría fácilmente al intentar resolver el [problema de la cena de los filósofos](https://es.wikipedia.org/wiki/Problema_de_la_cena_de_los_fil%C3%B3sofos) y que una posible solución en Python es usar _timeouts_ (ver ejercicio resuelto).
+
 ejercicios:
   - name: Buscador de imágenes
     repo: concu-unahur/python-buscador-imagenes
     classroom: https://classroom.github.com/a/NwpQIV3w
+  - name: Filósofos comensales (ejemplo de deadlock)
+    repo: concu-unahur/python-filosofos-deadlock
 
