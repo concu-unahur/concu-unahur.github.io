@@ -56,6 +56,13 @@ Largarse a hacer todo de una puede ser un poco abrumante, les recomendamos divid
 
 También podría servirles hacer todo _sin threads_ y luego ir incorporándolos para cada funcionalidad. Para que no tengan que reescribir todo el código después, es muy importante que modularicen su código usando funciones y/o clases (recuerden que fuimos sus profes de Objetos 1 y sabemos de qué son capaces).
 
+En cuanto a la sincronización, una forma posible de encararla es utilizando una lista (o cola) para cada paso del algoritmo. Lo que debería hacer cada etapa es:
+* esperar a que haya elementos en su lista de trabajo,
+* procesar el/los elementos,
+* meter el resultado en la lista de trabajo de la siguiente etapa.
+
+**Ojo :eye::** los efectos trabajan de a una imagen a la vez, pero la generación de trípticos necesita que haya al menos tres elementos para poder procesar. Tienen que contemplar esto en el mecanismo de sincronización que implementen.
+
 ## Bonus
 
 Parametrizar:
