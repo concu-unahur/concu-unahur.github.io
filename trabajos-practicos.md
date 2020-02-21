@@ -4,7 +4,7 @@
 
 ## Configuración del entorno
 
-1. Desde una consola dentro del proyecto, ejecutar `pip install -r requirements.txt` para instalar las dependencias.
+1. Desde una consola dentro del proyecto, ejecutar `pip3 install -r requirements.txt` para instalar las dependencias.
 1. Crearse una cuenta en [Pixabay](https://pixabay.com/accounts/register).
 1. Obtener el API key desde la [página de la documentación](https://pixabay.com/api/docs/#api_search_images).
 1. Agregar la API key al código y ejecutarlo para verificar que funcione.
