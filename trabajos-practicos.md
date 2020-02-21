@@ -65,10 +65,27 @@ En cuanto a la sincronización, una forma posible de encararla es utilizando una
 
 ## Bonus
 
-Parametrizar:
-* la cantidad de threads que aplica cada transformación,
-* la cantidad de threads que arman los trípticos,
-* la cantidad de imágenes que tiene cada tríptico (que, lógicamente, dejaría de ser un tríptico para pasar a ser un N-íptico :stuck_out_tongue:).
+### Parametrizaciones
+
+Agregarle al script la capacidad de parametrizar:
+
+1. la cantidad de threads que aplica cada transformación,
+1. la cantidad de threads que arman los trípticos,
+1. la cantidad de imágenes que tiene cada tríptico (que, lógicamente, dejaría de ser un tríptico para pasar a ser un N-íptico :stuck_out_tongue:).
+1. más difícil: la cantidad de threads que se encargan de bajar las imágenes. El máximo va a coincidir con la cantidad de imágenes que se van a descargar, pero podría elegirse un valor menor (por ejemplo: usar 5 threads para bajar 30 imágenes).
+
+Esto pueden lograrlo de tres maneras:
+* pasando los parámetros por consola y leyéndolos con [`sys.argv`](https://www.tutorialspoint.com/python/python_command_line_arguments.htm);
+* usando [`input`](https://docs.python.org/3.5/library/functions.html#input) y pidiendo los parámetros una vez que se ejecuta el programa;
+* mucho más sofisticado, usando [`argparse`](https://docs.python.org/3.3/library/argparse.html).
+
+Elijan la que les de mayor satisfacción. :smiley:
+
+### Optimización de performance
+
+Una vez resueltos los puntos 1 y 2 del apartado anterior, ir variando la cantidad de threads y medir el tiempo que tarda en ejecutar con cada una de las combinaciones. Registrar estos datos en el repositorio - podría ser con una tabla en el `README.md` o algún `tiempos.txt` en la raíz (por favor no usen Excel ni Word ni nada de eso, que no se puede ver directamente desde GitHub).
+
+Con las mediciones en mano, buscar la combinación de threads que parezca más óptima.
 
 ## Links útiles
 
