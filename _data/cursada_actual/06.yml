@@ -4,4 +4,6 @@ ejercicios:
   - name: Manejando de imágenes
     repo: concu-unahur/python-manipulacion-imagenes
     classroom: https://classroom.github.com/a/Y-CXx3YS
-  
+    apuntes:
+      - name: Python listas
+        repo: concu-unahur/python-listas  
