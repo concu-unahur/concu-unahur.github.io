@@ -2,6 +2,12 @@
 
 # TP 1 - Procesador de imágenes de Pixabay
 
+## Condiciones y formato de entrega
+
+Deberán formar sus grupos de 2 personas, clonarse [este repositorio](https://classroom.github.com/g/Qk8S9HgH) y trabajar allí. 
+
+Se tomará como entrega el código que esté allí el día **Viernes 6 de Marzo a las 23:59 horas**, sin excepciones. Luego de la entrega habrá una defensa individual en clase para validar que todas las personas del grupo hayan aportado al trabajo.
+
 ## Configuración del entorno
 
 1. Desde una consola dentro del proyecto, ejecutar `pip3 install -r requirements.txt` para instalar las dependencias.
