@@ -91,7 +91,7 @@ Con las mediciones en mano, buscar la combinación de threads que parezca más �
 ## Repositorios de ejemplo
 
 * [Manipulación de imágenes](https://github.com/concu-unahur/python-manipulacion-imagenes): algunos ejemplos de transformaciones, incluida la concatenación que necesitan hacer para armar los trípticos. :wink: Presten especial atención a la forma en que leemos y escribimos las imágenes, deben hacerlo de esa manera para que no les salten errores extraños de formato.
-* [Manipulación de listas](https://github.com/concu-unahur/python-manipulacion-imagenes): ejemplitos de cómo recorrer, filtrar, hacer `map` sobre listas. Vean también el link que está más abajo que tiene más ejemplos.
+* [Manipulación de listas](https://github.com/concu-unahur/python-listas): ejemplitos de cómo recorrer, filtrar, hacer `map` sobre listas. Vean también el link que está más abajo que tiene más ejemplos.
 
 ## Links útiles
 
