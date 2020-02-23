@@ -87,7 +87,13 @@ Una vez resueltos los puntos 1 y 2 del apartado anterior, ir variando la cantida
 
 Con las mediciones en mano, buscar la combinación de threads que parezca más óptima.
 
+## Repositorios de ejemplo
+
+* [Manipulación de imágenes](https://github.com/concu-unahur/python-manipulacion-imagenes): algunos ejemplos de transformaciones, incluida la concatenación que necesitan hacer para armar los trípticos. :wink: Presten especial atención a la forma en que leemos y escribimos las imágenes, deben hacerlo de esa manera para que no les salten errores extraños de formato.
+* [Manipulación de listas](https://github.com/concu-unahur/python-manipulacion-imagenes): ejemplitos de cómo recorrer, filtrar, hacer `map` sobre listas. Vean también el link que está más abajo que tiene más ejemplos.
+
 ## Links útiles
 
 * [Documentación de la API de Pixabay](https://pixabay.com/api/docs/#api_search_images)
 * [Ejemplos de manipulaciones con scikit](https://scikit-image.org/docs/dev/auto_examples/)
+* [Explicación de varios métodos de las listas](https://likegeeks.com/python-list-functions/)
