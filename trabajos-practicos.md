@@ -40,7 +40,7 @@ En imágenes, sería algo así:
 
 ![](assets/tp/triptico-bolivia.jpg)
 
-Para hacer esto, obviamente deberán utilizar _threads_ y algún mecanismo de sincronización de los vistos hasta ahora: _locks_, semáforos y/o monitores.
+Para hacer esto, obviamente deberán utilizar _threads_ y algún mecanismo de sincronización de los vistos hasta ahora: _locks_, semáforos y/o monitores. Las transformaciones pueden ser las que ustedes quieran, lo único que les pedimos es que sean al menos dos.
 
 A muy alto nivel, el programa debería comportarse así:
 1. realizar una request a Pixabay para obtener las URLs de las imágenes,
@@ -72,7 +72,8 @@ Agregarle al script la capacidad de parametrizar:
 1. la cantidad de threads que aplica cada transformación,
 1. la cantidad de threads que arman los trípticos,
 1. la cantidad de imágenes que tiene cada tríptico (que, lógicamente, dejaría de ser un tríptico para pasar a ser un N-íptico :stuck_out_tongue:).
-1. más difícil: la cantidad de threads que se encargan de bajar las imágenes. El máximo va a coincidir con la cantidad de imágenes que se van a descargar, pero podría elegirse un valor menor (por ejemplo: usar 5 threads para bajar 30 imágenes).
+1. más difícil: qué transformaciones se van a aplicar, eligiendo de una lista de transformaciones que ustedes hayan implementado. Por ejemplo, la entrada podría ser "rotacion,contraste,escala_grises" y ustedes deberían aplicar esos tres efectos,
+1. más más difícil: la cantidad de threads que se encargan de bajar las imágenes. El máximo va a coincidir con la cantidad de imágenes que se van a descargar, pero podría elegirse un valor menor (por ejemplo: usar 5 threads para bajar 30 imágenes).
 
 Esto pueden lograrlo de tres maneras:
 * pasando los parámetros por consola y leyéndolos con [`sys.argv`](https://www.tutorialspoint.com/python/python_command_line_arguments.htm);
