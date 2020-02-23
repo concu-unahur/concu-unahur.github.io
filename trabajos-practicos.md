@@ -98,3 +98,4 @@ Con las mediciones en mano, buscar la combinación de threads que parezca más �
 * [Documentación de la API de Pixabay](https://pixabay.com/api/docs/#api_search_images)
 * [Ejemplos de manipulaciones con scikit](https://scikit-image.org/docs/dev/auto_examples/)
 * [Explicación de varios métodos de las listas](https://likegeeks.com/python-list-functions/)
+* [Listas por comprensión (o _list comprehension_)](https://www.programiz.com/python-programming/list-comprehension)
