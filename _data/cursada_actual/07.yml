@@ -27,6 +27,7 @@ finally:
 ```
 
 El Manejo básico de monitores es el siguiente
+
 ```python
 monitor = threading.Condition() #crea el monitor. Se le puede pasar como parámetro un Lock en particular
 monitor.acquire() # mismo que para semáforos
