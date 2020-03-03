@@ -1,0 +1,8 @@
+descripcion: |
+  ¡Arrancamos con NodeJS!
+
+ejercicios:
+  - name: Primeros pasos en NodeJS
+    repo: concu-unahur/nodejs-primeros-pasos
+    classroom: https://classroom.github.com/a/foSIUCD1
+
