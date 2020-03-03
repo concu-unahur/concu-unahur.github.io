@@ -5,4 +5,7 @@ ejercicios:
   - name: Primeros pasos en NodeJS
     repo: concu-unahur/nodejs-primeros-pasos
     classroom: https://classroom.github.com/a/foSIUCD1
+    apuntes:
+    - name: Algunas funciones de callback resueltas
+      repo: concu-unahur/nodejs-primeros-pasos-faloi
 
