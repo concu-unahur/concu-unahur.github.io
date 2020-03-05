@@ -1,0 +1,8 @@
+descripcion: |
+  ¡Arrancamos con NodeJS!
+
+ejercicios:
+  - name: Algo más de callbacks en NodeJS
+    repo: concu-unahur/nodejs-callbacks
+    classroom: https://classroom.github.com/a/n5l46xsd
+    
