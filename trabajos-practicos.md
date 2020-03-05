@@ -8,6 +8,25 @@ Deberán formar sus grupos de 2 personas, clonarse [este repositorio](https://cl
 
 Se tomará como entrega el código que esté allí el día **Viernes 6 de Marzo a las 23:59 horas**, sin excepciones. Luego de la entrega habrá una defensa individual en clase para validar que todas las personas del grupo hayan aportado al trabajo.
 
+## Criterios de evaluación y calificación
+
+Para **aprobar**, deben cumplir _todos_ los siguientes requisitos:
+* que el script cumpla su función (descargue imágenes relacionadas a la query, las transforme y arme los trípticos);
+* las descargas deben realizarse en threads diferentes (uno por imagen, excepto que implementen el último bonus);
+* las transformaciones deben estar implementadas en threads diferentes (al menos uno por transformación);
+* la generación de trípticos debe realizarse en (al menos) un thread diferente;
+* sincronizar los threads mediante semáforos y/o monitores;
+* no usar `sleep` ni `join`. 
+
+Para **poder promocionar**, deben además implementar correctamente la mayor cantidad de bonus. Ojo con esto: preferimos un programa que funciona y hace menos cosas a uno que pretende hacer un montón de cosas pero no funciona ninguna.
+
+Además, tendremos en cuenta estos criterios de calidad para la construcción de la nota final:
+* correcta división en subtareas, ya sea usando funciones o usando clases;
+* código repetido;
+* legibilidad del código (nombres de variables, funciones, etc.);
+* prolijidad;
+* puntualidad en la fecha de entrega.
+
 ## Configuración del entorno
 
 1. Desde una consola dentro del proyecto, ejecutar `pip3 install -r requirements.txt` para instalar las dependencias.
