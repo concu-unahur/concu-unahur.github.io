@@ -1,0 +1,8 @@
+descripcion: |
+  Interactuamos con una API REST.
+
+ejercicios:
+  - name: Usando una API REST
+    repo: concu-unahur/nodejs-api-museos
+    classroom: https://classroom.github.com/a/zK_jwAN4
+    
