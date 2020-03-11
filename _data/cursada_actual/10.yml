@@ -5,4 +5,6 @@ ejercicios:
   - name: Usando una API REST
     repo: concu-unahur/nodejs-api-museos
     classroom: https://classroom.github.com/a/zK_jwAN4
-    
+    apuntes:
+      - name: Solución parcial (escribe el nombre del primer museo)
+        repo: concu-unahur/nodejs-api-museos-faloi    
