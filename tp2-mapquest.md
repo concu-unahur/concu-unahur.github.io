@@ -80,6 +80,42 @@ A muy alto nivel, el programa debería comportarse así:
 1. escribir un archivo por cada _request_, con los pasos que devolvió la API,
 1. (para el bonus) computar las estadísticas una vez que terminen todas las _requests_.
 
+## Organización del repositorio
+
+Al descargarse el ejercicio, van a encontrarse con estos archivos:
+
+```
+.
+├── direcciones.txt
+├── index.js
+├── lib
+│   ├── colores.js
+│   └── map_quest.js
+├── package.json
+├── package-lock.json
+├── README.md
+├── respuestas
+│   ├── lugar.json
+│   └── ruta.json
+├── rutas
+└── test
+    └── direccion.js
+```
+
+Breve descripción de cada uno:
+
+* `direcciones.txt`: ejemplo de direcciones con las que podrían probar ejectuar el script;
+* `index.js`: el _main_, viene con ejemplos de cómo usar la API de MapQuest;
+* carpeta `lib`: código que les damos para iniciar:
+  * `colores.js`: utilidad para ponerle colores a la salida del script;
+  * `map_quest.js`: simplificación de la API de MapQuest para ahorrarles leer la documentación y manejar algunos errores;
+* `package.json` y `package-lock.json`: archivos de configuración del proyecto;
+* carpeta `respuestas`: ejemplos de las respuestas de la API de MapQuest:
+  * `lugar.json`: respuesta de ejemplo para el método `obtenerLugar`;
+  * `ruta.json`: respuesta de ejemplo para el método `obtenerRuta`;
+* carpeta `rutas`: está vacía, la incluimos para que guarden ahí el resultado del script;
+* `test/direccion.js`: script para probar las direcciones, ver detalles en la siguiente sección.
+  
 ## Consejos para la implementación
 
 Largarse a hacer todo de una puede ser un poco abrumante, les recomendamos dividir el problema en varias etapas que ataquen de a una complejidad a la vez. En esta línea, podrían ir haciendo el programa de manera incremental siguiendo los puntos descriptos en el apartado anterior: una primera versión que solo lea dos direcciones e imprima por pantalla, una segunda que ya escriba en un archivo, una tercera que procese todas las direcciones, etc.
