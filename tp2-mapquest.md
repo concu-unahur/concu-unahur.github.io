@@ -120,6 +120,8 @@ Breve descripción de cada uno:
 
 Largarse a hacer todo de una puede ser un poco abrumante, les recomendamos dividir el problema en varias etapas que ataquen de a una complejidad a la vez. En esta línea, podrían ir haciendo el programa de manera incremental siguiendo los puntos descriptos en el apartado anterior: una primera versión que solo lea dos direcciones e imprima por pantalla, una segunda que ya escriba en un archivo, una tercera que procese todas las direcciones, etc.
 
+Otra recomendación: no mezclen _callbacks_ y _promises_. Elijan una de las dos estrategias y usen solo esa.
+
 Incluimos un archivo `direcciones.txt` con algunas direcciones que pueden usar para probar. Pueden modificarlas o agregar otras, teniendo la precaución de que lo que pongan sea válido - a veces la dirección existe pero no es el lugar que pensaban.
 
 Para evitar sorpresas, les dejamos un script en `test/direccion.js` que sirve para ver si una dirección es válida y apunta a donde quieren. Un ejemplo de esto:
@@ -154,13 +156,65 @@ Revisá que el formato sea el correcto, por ejemplo: "Av. Rivadavia 15921"
 
 ## Bonus
 
-1. Estadísticas: para las rutas, para las direcciones.
-1. Bajar algunos mapitas.
-1. Generar otro archivo `lugares.txt` agregando info de cada lugar.
+### Información de los lugares
+
+Generar un archivo `lugares.txt` con información adicional de cada una de las direcciones:
+* nombre completo de la calle,
+* código postal,
+* latitud y longitud,
+* ciudad, provincia y país.
+
+Toda esta información la obtienen con el método `obtenerLugar` que ya mencionamos. El archivo debería tener tres líneas por cada lugar, con este formato:
+
+```
+NOMBRE COMPLETO DE LA CALLE - CÓDIGO POSTAL
+Coordenadas: (LATITUD, LONGITUD)
+CIUDAD, PROVINCIA, PAIS
+```
+
+Por ejemplo, para la primera dirección del ejemplo debería producir esta salida:
+
+```
+Doctor José María Casullo - 1708
+Coordenadas: (-34.648853, -58.624137)
+Morón, Buenos Aires, AR
+```
+
+### Estadísticas
+
+Luego de calcular todas las rutas, imprimir por pantalla las siguientes estadísticas:
+
+#### De las rutas
+* total de kilómetros recorridos,
+* distancia promedio de las rutas,
+* ruta más larga: origen, destino y kilómetros,
+* ruta más corta: origen, destino y kilómetros.
+
+#### De los lugares
+* provincias recorridas (sin repetidos),
+* ciudades recorridas (sin repetidos).
+
+Para las estadísticas de los lugares van a necesitar hacer más _requests_, porque necesitan la información de los lugares. Pueden usar para eso el método `obtenerLugar` que les dejamos implementado, en cualquiera de sus dos variantes (_callback_ o _promise_).
+
+**Ayuda**: para esperar a que una lista de promises termine pueden usar [`Promise.all`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Promise/all).
+
+### Mapas
+
+Además de la narrativa, cada maniobra que devuelve la API viene acompañada por una pequeña imagen de un mapa que muestra por dónde estaríamos circulando (está en el atributo `mapUrl`).
+
+La idea de este bonus es que **además** de generar el txt con los pasos para cada ruta, descarguen todas esas imágenes. Quedaría algo así por cada ruta:
+* `ruta-0.txt`;
+* `ruta-0-maniobra-0.jpg`;
+* `ruta-0-maniobra-1.jpg`;
+* `ruta-0-maniobra-2.jpg`;
+* `ruta-0-maniobra-3.jpg`.
+* etcétera...
+
+Si se animan, pueden compilar todas esas imágenes en una sola, algo así como lo que hicieron en el TP 1. Para esto, pueden usar [`node-sprite-generator`](https://www.npmjs.com/package/node-sprite-generator) o cualquier otra biblioteca que encuentren.
 
 ## Repositorios de ejemplo
 
-* [Manipulación de listas](#TODO): ejemplitos de cómo recorrer, filtrar, hacer `map` sobre listas.
+* [Manipulación de archivos](https://github.com/concu-unahur/nodejs-introduccion-promises/blob/master/archivos.js): ejemplo de cómo escribir un archivo.
 
 ## Links útiles
 
