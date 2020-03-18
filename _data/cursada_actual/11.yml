@@ -1,0 +1,8 @@
+descripcion: |
+  Siguiendo las disposiciones sanitarias del país, esta clase fue de manera virtual. Presentamos el [TP 2](/tp2-mapquest) y vimos una pequeña introducción a promises.
+
+  Pueden volver a ver la clase entrando [acá](https://www.youtube.com/watch?v=xNaAUIy415I).
+
+ejercicios:
+  - name: Introducción a promises
+    repo: concu-unahur/nodejs-introduccion-promises
