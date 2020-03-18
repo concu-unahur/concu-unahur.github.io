@@ -184,13 +184,13 @@ Morón, Buenos Aires, AR
 
 Luego de calcular todas las rutas, imprimir por pantalla las siguientes estadísticas:
 
-#### De las rutas
+**De las rutas**
 * total de kilómetros recorridos,
 * distancia promedio de las rutas,
 * ruta más larga: origen, destino y kilómetros,
 * ruta más corta: origen, destino y kilómetros.
 
-#### De los lugares
+**De los lugares**
 * provincias recorridas (sin repetidos),
 * ciudades recorridas (sin repetidos).
 
