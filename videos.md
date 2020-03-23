@@ -2,6 +2,10 @@
 
 ## Conceptos
 
+**¿Para qué sirve y cómo se usa el Promise.all?** breve explicación transmitida en vivo.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ApcJT-qHxTc?start=396" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Semáforos** explicado haciendo analogía con la cola de un boliche. La discriminación que ejerce el señor de la puerta puede servir para entender que no necesariamente los threads que están esperando hace más tiempo sean los primeros en acceder al recurso.
 
 (De hecho, esto dice la documentación de Python al respecto: _The implementation may pick one at random, so the order in which blocked threads are awakened should not be relied on._)
