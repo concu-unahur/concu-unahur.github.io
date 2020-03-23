@@ -1,5 +1,9 @@
 # Material
 
+## NodeJS
+
+**:argentina: [Documentación de Promise](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Promise)**: sitio de Mozilla con la documentación oficial de `Promise`, donde pueden ver todos los métodos que tiene (como `Promise.all`).
+
 ## Python
 
 **:us: [Threading](https://docs.python.org/3.8/library/threading.html):** documentación de la clase `Threading`, incluyendo los threads y los distintos tipos de locks.
